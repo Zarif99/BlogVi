@@ -11,7 +11,7 @@ with open(path.join(here, "README.md"), encoding="utf-8") as f:
 
 setup(
     name="blog-vi",
-    version="0.1",
+    version="0.2.5",
     description="Simple blog with search and comments",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -44,6 +44,8 @@ setup(
         "feedgen>=0.6.0,<1.0.0",
         "python-slugify>=4.0.0,<4.0.1",
         "PyYAML>=5.0.0,<5.3.1",
+        "deepl>=1.0.1,<2",
+        "MarkupSafe==2.0.1"
     ],
     entry_points={
         "console_scripts": [
